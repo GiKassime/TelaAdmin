@@ -9,7 +9,7 @@ body {
 /* Estilo para o menu lateral */
 .sidebar {
     min-height: 100vh;
-    background: #00224D;
+    background: rgb(17, 9, 72);
     color: white;
     padding: 15px;
     transition: transform 0.3s ease-in-out;
@@ -23,9 +23,19 @@ body {
 }
 
 .sidebar a:hover {
-    background: #495057;
+    background:  rgb(32, 16, 132);
+}
+.bg-customizado-vermelho{
+    background-color: #624E88; /* Substitua pelo código da cor desejada */
+  }
+.bg-customizado-amarelo{
+    background-color: #CB80AB;
 }
 
+.bg-customizado-outros {
+    background-color: #789DBC;
+}
+  
 /* Ocultar a sidebar em telas pequenas */
 @media (max-width: 768px) {
     .sidebar {
@@ -38,3 +48,6 @@ body {
         transform: translateX(0);
     }
 }
+
+
+
