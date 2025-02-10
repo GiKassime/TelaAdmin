@@ -9,7 +9,7 @@ body {
 /* Estilo para o menu lateral */
 .sidebar {
     min-height: 100vh;
-    background: #343a40;
+    background: #00224D;
     color: white;
     padding: 15px;
     transition: transform 0.3s ease-in-out;

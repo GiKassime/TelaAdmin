@@ -18,4 +18,3 @@ function toggleMenu(element){
     // Alternar a visibilidade do menu em telas pequenas
     document.getElementById("sidebar").classList.toggle("show");
 }
-
